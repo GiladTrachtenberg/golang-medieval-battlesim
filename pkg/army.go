@@ -1,5 +1,10 @@
 package pkg
 
+import (
+	"math/rand"
+	"time"
+)
+
 type Army struct {
 	Name     string
 	Soldiers []Soldier
